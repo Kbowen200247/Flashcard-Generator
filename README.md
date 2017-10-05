@@ -73,7 +73,7 @@ A basic card has a front and a back. A basic flashcard is created through a cons
 A cloze Card has a piece of text removed. A cloze Card is created through a constructor ClozeCard which takes two arguments: text and cloze, respectively. The Clozecard has property clozeDeleted which takes the text and replaces the cloze portion with _____.
 
 
-# Technologies Used
+### Technologies Used
 
 * NPM packages
 
