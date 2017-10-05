@@ -1,0 +1,31 @@
+{"front":"Who was the first president of the United States?","back":"George Washington","type":"basic"};
+
+// inquirer.prompt([{
+// 	name: "cardtype",
+// 	message: "What would you choose to create the new card?",
+// 	choices: ["Basic Card", "Cloze Card"]
+// }]).then(function(answer){
+// 	if (answer.cardtype === "Basic Card"){
+// 		inquirer.prompt([{
+// 			name: "front",
+// 			message: "What is the question?"
+// 		},{
+// 			name: "back",
+// 			message: "What is the answer?"
+// 		}]).then(function(answer){
+// 			var newBasic = new BasicCard(answer.front, answer.back);
+// 			newBasic.create();
+// 		});
+// 	} 
+// 	else if (answer.cardtype === "Cloze Card"){
+// 		inquirer.prompt([{
+// 			name: "text",
+// 			message: "What is the full text?",
+// 		}, {
+// 			name: "cloze",
+// 			message: "What is the cloze portion?"
+// 		}]).then(function(answer){
+// 			var newCloze = new ClozedCard(answer.text, answer.cloze);
+// 		})
+// 	}
+// });
