@@ -76,9 +76,6 @@ A cloze Card has a piece of text removed. A cloze Card is created through a cons
 ### Technologies Used
 
 * NPM packages
-
 * Javascript
-
 * Node.js
-
 * CLI commands
